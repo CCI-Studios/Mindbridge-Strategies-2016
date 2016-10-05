@@ -1,0 +1,23 @@
+name = mindbridge
+description = mindbridge Custom
+core = 7.x
+
+;scripts[] = js/filename.js
+scripts[] = js/slick/slick.js
+scripts[] = js/search-box.js
+scripts[] = js/background-size.js
+scripts[] = js/icons.js
+scripts[] = js/script.js
+
+
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = js/slick/slick.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+

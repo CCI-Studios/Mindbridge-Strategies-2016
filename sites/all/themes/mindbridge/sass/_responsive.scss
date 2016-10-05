@@ -1,0 +1,378 @@
+@media screen and (max-width: 1020px){
+
+	.view-services{
+
+		.views-row{
+
+			margin-right: -10px;
+			padding: 0px;
+			vertical-align: top;
+		}
+
+		.serv-icon{
+
+			height: 65px;
+		}
+
+		a{
+
+			display: block;
+		}
+
+		.subtitle{
+
+			width: 195px;
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 768px){
+
+	#navigation .region-navigation{
+
+		display: block!important;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	h2{
+
+		font-size: 1.8em;
+	}
+
+	#block-block-2{
+
+		display: none;
+	}
+
+	#block-search-form
+	{
+		display: block;
+	}
+	
+	.view-banner .views-field-body{
+
+		top: 40%;
+
+		img{
+
+			width: 300px;
+			height: auto;
+		}
+	} 
+
+	#header {
+
+		margin-bottom: -35px;
+	}
+
+	.backbg{
+
+		height: 600px;
+		padding: 0px!important;
+	}
+
+	.not-front #header{
+
+		height: 450px;
+	}
+
+	.slick-dots{
+
+		bottom: 180px;
+	}
+
+	#mobile-menu-icon{
+
+		background: url(../images/mobile-icon.png) no-repeat;
+		background-position: center;
+		display: block;
+	}
+
+	.slick-prev{
+
+		left: 10px;
+	}
+
+	.slick-next{
+
+		right: 10px;
+	}
+
+	.view-banner h1{
+
+		max-width: 240px;
+		font-size: 1.7em;
+	}
+
+	#logo{
+		padding-left: 20px;
+		display: block;
+		width: 200px;
+		position: relative;
+
+		img{
+
+			width: 100%;
+		}
+	}
+
+	#logo,
+	#mobile-menu-icon{
+
+		z-index: 2;
+	}
+
+	#terms-of-use,
+	#privacy-policy{
+
+		display: block;
+	}
+
+	#navigation{
+
+
+		.region-navigation{
+
+			display: none;
+			float: none;
+			top: 0px;
+			position: absolute;
+			width: 100%;
+			background: white;
+			padding-top: 50px;
+			margin-top: 0px;
+
+		}
+
+		&>div{
+
+			padding: 15px 0px 10px;
+		}
+
+		#block-search-form,
+		#block-system-main-menu{
+
+			float: none;
+		}
+
+		#block-search-form{
+
+			width: 93%;
+			margin: 0 auto;
+			border-top: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+			margin-top: 20px;
+
+			.form-type-textfield{
+				position: relative;
+				display: block;
+			
+			}
+
+			.form-item{
+				margin: 0px;
+			}
+
+			.form-text{
+
+				background: #f3f3f3;
+				padding: 10px 10px;
+				border-radius: 20px;
+				width: 93%;
+				border: 0px;
+				margin-top: 18px;
+
+			}
+
+			.form-submit{
+
+				position: relative;
+				top: -22px;
+			}
+		}
+	}
+
+	.view-services{
+
+		.serv-icon{
+
+			height: auto;
+
+		}
+
+		.views-row{
+
+			padding-bottom: 20px;
+		}
+
+		.serv-icon img{
+			width: 65px;
+		}
+
+		.serv-icon + span{
+			width: 60%;
+			padding-left: 10px;
+		}
+
+		a > span{
+
+			float: left;
+			text-align: left;
+		}
+	} 
+
+	#block-views-news-block-1{
+
+		.views-row{
+
+			margin-right: 0px;
+		}
+
+		.view-content .title a{
+			font-size: 1em;
+		}
+
+		.right-block{
+
+			padding: 20px 0px 0px 30px;
+			width: 226px;
+			min-width: inherit;
+		}
+
+	}
+
+	#block-system-main-menu{
+
+		right: 0px;
+		background: white;
+		width: 100%;
+
+		.content 
+		{	
+
+			a
+			{
+				border-bottom: 1px solid #e6e6e6;
+				padding: 25px 0px;
+				display: block;
+			}
+			
+		}
+
+		ul.menu
+		{	
+			text-align: center;
+			float: none;
+		}
+
+		li
+		{
+			float: none;
+		}
+	}
+
+	#footer{
+
+		ul.menu a{
+
+			font-size: 14px;
+			padding: 0px;
+		}
+	}
+
+	#footer-second{
+
+		padding: 0px 10px;
+		font-size: 11px;
+	}
+
+	#block-views-services-page-block{
+
+		.views-row{
+
+			width: 100%;
+		}
+	}
+
+	.node-news a{
+
+		word-wrap: break-word;
+	}
+
+	.view-services{
+
+		background: url(../images/service-mobile-bg.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+		text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	}
+}
+
+
+@media screen and (max-width: 450px){
+
+	div.messages{
+
+		width: 300px!important;
+	}
+
+	#node-9{
+
+		.content span{
+
+			display: block;
+		}
+	}
+
+	#content:before{
+
+		background-image: url(../images/arc-mb-bg.png);
+	}
+
+	.view-services .title{
+
+		font-size: 1.5em;
+	}
+
+	.webform-client-form{
+
+		input{
+
+			max-width: 300px;
+			margin-right: 0px;
+		}
+
+		.webform-component-textarea{
+
+			max-width: 326px;
+			margin: 15px auto;
+		}
+	} 
+
+	#block-menu-menu-footer-menu{
+
+		&::before{
+
+			background-image: url(../images/arc-footer-mb-bg.png);
+			height: 346px;
+			top: -230px;
+		}
+
+		.content{
+
+			margin-bottom: -75px;
+		}
+	
+	}
+
+	#footer .menu{
+
+		max-width: 300px;
+		margin: 0 auto;
+		top: -153px;
+	}
+}
