@@ -1,11 +1,5 @@
 (function($){    
     $(function(){
-
-        $('.view-banner .view-content').slick(
-        {infinite: true,
-        arrows: true,
-        dots: true}); 
-    
         var max1= $('.view-banner .views-row').length;
         for(var i=1; i<=max1; i++)
         {   

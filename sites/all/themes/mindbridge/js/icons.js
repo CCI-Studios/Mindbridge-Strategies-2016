@@ -8,7 +8,6 @@
         }  
 
         $('.view-services .views-row').each(function(){
-
         
             var title = $(this).find('.title').text();
             title = title.slice(0, -1);

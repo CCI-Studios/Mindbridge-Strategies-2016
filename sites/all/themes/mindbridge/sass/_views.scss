@@ -9,6 +9,11 @@
 		text-transform: inherit;
 	}
 
+	h2{
+	    width: 400px;
+	    margin: 0 auto;
+	}
+
 	.views-row{
 		position: relative;
 	}
@@ -81,15 +86,11 @@
 }
 
 .view-services{
-
-	background: url(../images/service-bg3.jpg) no-repeat;
-	background-size: cover;
 	text-align: center;
 	position: relative;
-	background-position: center;
 
 	a{
-		color: white;
+		color: $blue;
 
 		span{
 			display: block;
@@ -104,11 +105,11 @@
 	.title{
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 		font-size: 2em;
-		color: white;
+		color: $blue;
 	}
 
 	.view-content{
-		padding: 90px 0px;
+		padding: 0px 0px 90px;
 	}
 
 	.view-content{

@@ -92,6 +92,14 @@
 		display: block;
 	}
 
+	#navigation.blue-header
+	{
+		#mobile-menu-icon{
+			background: url(../images/mobile-icon-white.png) no-repeat;
+			background-position: center;
+		}
+	}
+
 	.slick-prev{
 
 		left: 10px;
@@ -108,7 +116,8 @@
 		font-size: 1.7em;
 	}
 
-	#logo{
+	#logo,
+	#logo-white{
 		padding-left: 20px;
 		display: block;
 		width: 200px;
@@ -133,7 +142,6 @@
 	}
 
 	#navigation{
-
 
 		.region-navigation{
 
@@ -301,14 +309,6 @@
 	.node-news a{
 
 		word-wrap: break-word;
-	}
-
-	.view-services{
-
-		background: url(../images/service-mobile-bg.jpg) no-repeat;
-		background-position: center;
-		background-size: cover;
-		text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 	}
 }
 

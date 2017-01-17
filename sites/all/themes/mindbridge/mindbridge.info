@@ -3,7 +3,6 @@ description = mindbridge Custom
 core = 7.x
 
 ;scripts[] = js/filename.js
-scripts[] = js/slick/slick.js
 scripts[] = js/search-box.js
 scripts[] = js/background-size.js
 scripts[] = js/icons.js

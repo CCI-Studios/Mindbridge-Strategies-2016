@@ -9,22 +9,24 @@
         $('#navigation').toggleClass('open');
 
     });
-
     /*
-    * anchor top margin
+    * Menu switch
     */
 
-    if(window.location.hash)
-    { 
-       var target = window.location.hash;
-       
-        var $target = $(target);
-        console.log($target);
-        $('html, body').stop().animate({
-          'scrollTop': $target.offset().top-75
-        }, 150);
-    }  
+   $(window).scroll(function(){
+         if($(window).scrollTop()+150 > $('#content').offset().top)
+         {
+            $('#navigation').addClass('blue-header');
+         }
+         else
+         {
+             $('#navigation').removeClass('blue-header');
+         }
+   })
 
+   /*
+   * Anchor scroll top margin
+   */
 
     $('.view-services a[href*=#]').on('click',function (e) 
     {       
