@@ -7,18 +7,19 @@
 			if($(window).width() > 730)
 			{
 				event.preventDefault();
-				$('#block-search-form').toggleClass('active');
-				$('#block-block-2').toggleClass('hide');
-				$('#search-block-form .form-type-textfield').slideDown();
+				$('.block-search').addClass('active');
+				$('.block-search + .block-block').addClass('hide');
+				$('.block-search .form-type-textfield').slideDown();
 			}
 		});
 
 		$("body").click(function(){
 			if($(window).width() > 730)
 			{
-		 	  $("#search-block-form .form-type-textfield").slideUp();
-			  $('#block-search-form').removeClass('active');
-			  $('#block-block-2').removeClass('hide');
+		 	  $(".block-search .form-type-textfield").slideUp();
+			  $('.block-search').removeClass('active');
+			  $('.block-search + .block-block').removeClass('hide');
+
 		  	}
 		});
 	

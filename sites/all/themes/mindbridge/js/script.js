@@ -13,17 +13,6 @@
     * Menu switch
     */
 
-   $(window).scroll(function(){
-         if($(window).scrollTop()+150 > $('#content').offset().top)
-         {
-            $('#navigation').addClass('blue-header');
-         }
-         else
-         {
-             $('#navigation').removeClass('blue-header');
-         }
-   })
-
    /*
    * Anchor scroll top margin
    */

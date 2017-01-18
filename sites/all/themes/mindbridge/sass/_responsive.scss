@@ -30,7 +30,8 @@
 
 @media screen and (min-width: 768px){
 
-	#navigation .region-navigation{
+	#navigation .region-navigation,
+	#navigation-fixed > div>div> .region-navigation{
 
 		display: block!important;
 	}
@@ -92,7 +93,7 @@
 		display: block;
 	}
 
-	#navigation.blue-header
+	#navigation-fixed
 	{
 		#mobile-menu-icon{
 			background: url(../images/mobile-icon-white.png) no-repeat;
@@ -141,7 +142,8 @@
 		display: block;
 	}
 
-	#navigation{
+	#navigation,
+	#navigation-fixed{
 
 		.region-navigation{
 

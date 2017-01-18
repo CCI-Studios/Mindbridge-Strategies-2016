@@ -80,6 +80,13 @@
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
           <img src="/sites/all/themes/mindbridge/images/logo.svg" onerror="this.src='<?php print $logo; ?>'; return this.onerror=null"; alt="<?php print t('Home'); ?>" />
         </a>
+      <?php endif; ?>
+      <div id="mobile-menu-icon"><a href="#">menu</a></div>
+      <?php print render($page['navigation']); ?>
+    </div></div></div>
+     <div id="navigation-fixed"><div><div>
+       <?php if ($logo): ?>
+        
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo-white" class='logo-white'>
           <img src="/sites/all/themes/mindbridge/images/logo-white1.png" alt="<?php print t('Home'); ?>" />
         </a>

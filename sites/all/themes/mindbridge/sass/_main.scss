@@ -108,15 +108,16 @@ a
 
 #navigation
 {
-
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
-	position: relative;
-	z-index: 2;
-	position: fixed;
-	width: 100%;
+	z-index: 3;
+    position: relative;
 	background: white;
-	-webkit-transition: all 0.3s ease-in-out 0s;
+}
 
+#navigation,
+#navigation-fixed
+{
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+	-webkit-transition: all 0s ease-in-out 0s;
 
 	.region-navigation
 	{
@@ -144,8 +145,8 @@ a
 	    -ms-transform: scaleX(0);
 	    transform: scaleX(0);
 	    border-bottom: 2px solid black;
-	    -webkit-transition: all 0.3s ease-in-out 0s;
-	    transition: all 0.3s ease-in-out 0s;
+	    -webkit-transition: all 0.2s ease-in-out 0s;
+	    transition: all 0.2s ease-in-out 0s;
 	}
 
 	.menu a:hover:after
@@ -167,10 +168,14 @@ a
 	}
 }
 
-#navigation.blue-header
+#navigation-fixed
 {
-	-webkit-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0s ease-in-out 0s;
 	background: $blue;
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+	width: 100%;
 
 	.menu a
 	{
@@ -181,10 +186,18 @@ a
 			border-bottom: 2px solid white;
 		}
 	}
-
+	#mobile-menu-icon a
+	{
+		color: white;
+	}
 	#logo
 	{
 		display: none;
+	}
+
+	.region-navigation > .region-navigation
+	{
+		margin-top: 0px;
 	}
 
 	.logo-white
@@ -489,14 +502,6 @@ div.messages{
 		display: block;
 		padding-left: 70px;
 		line-height: 1em;
-	}
-
-	#navigation.blue-header &
-	{
-		a
-		{
-			color: white;
-		}
 	}
 }
 

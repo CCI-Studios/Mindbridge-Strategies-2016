@@ -99,8 +99,8 @@
 	}
 }
 
-#block-search-form,
-#block-block-2
+#block-block-2,
+#block-search-form
 {	
 	right: 0px;
 	top: 0px;
@@ -116,16 +116,6 @@
 		width: 250px;
 		padding: 10px;
 		margin-top: 24px;
-	}
-
-	.form-submit
-	{	
-		@extend .hide-button;
-		width: 30px;
-		height: 30px;
-		cursor: pointer;
-		-webkit-appearance: none;
-		background: url(../images/search-icon-blue.png) no-repeat;
 	}
 
 	.contextual-links-wrapper
@@ -152,17 +142,26 @@
 	}
 }
 
+
+#block-search-form .form-submit
+{	
+	@extend .hide-button;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	background: url(../images/search-icon-blue.png) no-repeat;
+
+	#navigation-fixed &
+	{
+		background: url(../images/search-icon-white.png) no-repeat;
+	}
+}
+
+
 #block-search-form
 {
 	display: none;
-
-	#navigation.blue-header &
-	{	
-		.form-submit
-		{
-			background: url(../images/search-icon-white.png) no-repeat;
-		}
-	}
 
 	&.active
 	{
